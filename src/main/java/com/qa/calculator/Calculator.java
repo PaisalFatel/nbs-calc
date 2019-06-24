@@ -12,4 +12,9 @@ public class Calculator {
 		return number1 - number2;
 	}
 
+	public int multiply(int number1, int number2) {
+		// TODO Auto-generated method stub
+		return number1 * number2;
+	}
+
 }
