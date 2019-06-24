@@ -30,5 +30,13 @@ public class CalculatorTest {
 		Assert.assertEquals(16,result);
 	}
 	
+	@Test
+	public void DivideTwoNumbersTogetherTest() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(4,4);
+		Assert.assertEquals(1,result);
+	}
+	
+	
 	
 }
